@@ -1,6 +1,8 @@
 name: ssr-web-app-prod_app_5f35929_env_8d8399c Pipeline (Skyu Generated)
 'on':
   push:
+    branches:
+      - main
     tags:
       - v*
     paths-ignore:
