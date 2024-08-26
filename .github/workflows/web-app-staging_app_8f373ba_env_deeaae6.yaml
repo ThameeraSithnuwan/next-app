@@ -4,12 +4,16 @@ name: web-app-staging_app_8f373ba_env_deeaae6 Pipeline (Skyu Generated)
     branches:
       - staging
       - release/*
+      - test
     types:
       - sds
+      - log
     tags:
       - sdfsd
+      - is
     paths:
       - README.md
+      - .gitignore
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_1664f51d-ec45-4ef8-ab66-2a3491bd7585
