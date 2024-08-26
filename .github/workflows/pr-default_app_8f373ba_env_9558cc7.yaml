@@ -9,8 +9,7 @@ name: pr-default_app_8f373ba_env_9558cc7 Pipeline (Skyu Generated)
     tags:
       - test
     paths:
-      - README.md
-      - .gitignore
+      - package.json
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_422461f4-b2e5-4325-9125-2a3772019582
