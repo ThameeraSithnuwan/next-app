@@ -1,9 +1,16 @@
 name: pr-default_app_8f373ba_env_9558cc7 Pipeline (Skyu Generated)
 'on':
   pull_request:
+    branches:
+      - dev
     types:
       - opened
       - synchronize
+    tags:
+      - test
+    paths:
+      - README.md
+      - .gitignore
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_422461f4-b2e5-4325-9125-2a3772019582
@@ -254,6 +261,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - code-scan
+      - _status_testing
       - build-and-scan
     if: ${{ !(failure() || cancelled()) }}
     steps:
@@ -283,6 +291,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - code-scan
+      - _status_testing
       - build-and-scan
     if: ${{ failure() || cancelled() }}
     steps:
