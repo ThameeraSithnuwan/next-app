@@ -2,14 +2,13 @@ name: pr-default_app_8f373ba_env_9558cc7 Pipeline (Skyu Generated)
 'on':
   pull_request:
     branches:
-      - main
+      - branch
     types:
-      - opende
+      - types
     tags:
-      - newtag
+      - tags
     paths:
       - README.md
-      - .github/workflows/pr-default_app_8f373ba_env_9558cc7.yaml
       - app/*
   workflow_dispatch: {}
   repository_dispatch:
