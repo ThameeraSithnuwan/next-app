@@ -4,10 +4,11 @@ name: web-app-staging_app_8f373ba_env_deeaae6 Pipeline (Skyu Generated)
     branches:
       - staging
       - release/*
-    paths-ignore:
-      - .github/workflows/**
-      - .trivyignore
-      - Readme.md
+    types:
+      - sds
+    tags:
+      - sdfsd
+    paths:
       - README.md
   workflow_dispatch: {}
   repository_dispatch:
