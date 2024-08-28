@@ -1,14 +1,7 @@
 name: ssr-web-app-staging_app_5f35929_env_9bc77a3 Pipeline (Skyu Generated)
 'on':
-  push:
-    branches:
-      - dfsdf
-    types:
-      - sdfsf
-    tags:
-      - dsfgdsg
-    paths:
-      - README.md
+  schedule:
+    - cron: 2.3.4.5
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_2a085a5f-eaa0-40ee-bcef-ab7f074aa45a
