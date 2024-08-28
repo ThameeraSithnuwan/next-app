@@ -1,6 +1,6 @@
 name: ssr-web-app-staging_app_5f35929_env_9bc77a3 Pipeline (Skyu Generated)
 'on':
-  push:
+  pull_request:
     branches:
       - test
     types:
