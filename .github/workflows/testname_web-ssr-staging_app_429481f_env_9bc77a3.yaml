@@ -1,5 +1,14 @@
 name: testname_web-ssr-staging_app_429481f_env_9bc77a3 Pipeline (Skyu Generated)
 'on':
+  push:
+    branches:
+      - edre
+    types:
+      - eef
+    tags:
+      - eev
+    paths:
+      - README.md
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_08f4d9e2-b834-4b8f-9765-7284d280d80e
