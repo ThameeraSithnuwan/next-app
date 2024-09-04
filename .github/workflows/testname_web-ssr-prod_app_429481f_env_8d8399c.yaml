@@ -1,14 +1,5 @@
 name: testname_web-ssr-prod_app_429481f_env_8d8399c Pipeline (Skyu Generated)
 'on':
-  push:
-    branches:
-      - sds
-    types:
-      - sdfsf
-    tags:
-      - sdfs
-    paths:
-      - .gitignore
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_e12f5e91-bbe7-4be0-9103-09431e4ec2a5
