@@ -1,15 +1,5 @@
 name: domains_web-ssr-staging_app_8966aa4_env_9bc77a3 Pipeline (Skyu Generated)
 'on':
-  push:
-    branches:
-      - release/*
-      - main
-    types:
-      - test
-    tags:
-      - tag
-    paths:
-      - app/*
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_ac03ca09-44fa-4e7a-8ef2-c4d5befd9c82
