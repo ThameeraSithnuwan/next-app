@@ -1,16 +1,5 @@
 name: domains_web-ssr-dev_app_8966aa4_env_e9b896d Pipeline (Skyu Generated)
 'on':
-  push:
-    branches:
-      - main
-      - test
-    types:
-      - dfsjfsd
-    tags:
-      - test
-      - tag2
-    paths:
-      - .gitignore
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_d767c38b-c729-431c-82b8-f6ea8b714920
