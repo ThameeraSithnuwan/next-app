@@ -5,6 +5,7 @@ name: domains_web-ssr-dev_app_8966aa4_env_e9b896d Pipeline (Skyu Generated)
       - main
     tags:
       - test
+      - tag2
     paths-ignore:
       - .github/workflows/**
       - .trivyignore
