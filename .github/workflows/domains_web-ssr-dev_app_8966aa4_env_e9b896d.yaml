@@ -3,6 +3,8 @@ name: domains_web-ssr-dev_app_8966aa4_env_e9b896d Pipeline (Skyu Generated)
   push:
     branches:
       - main
+    tags:
+      - test
     paths-ignore:
       - .github/workflows/**
       - .trivyignore
